@@ -63,10 +63,11 @@ namespace exe4_013
             }
         }
     }
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Stack S = new Stack();
         }
     }
 }
