@@ -19,8 +19,18 @@ namespace exe4_013
         }
         public void push()
         {
+            if (top == max - 1)
+            {
+                Console.WriteLine("Stack Overflow");
+                return;
+            }
+            else
+            {
+                top++;
+                Console.Write("Pushed element is: ");
+                adi[top] = Console.ReadLine();
+            }
         }
-
     }
     internal class Program
     {
