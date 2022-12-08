@@ -34,6 +34,17 @@ namespace exe4_013
 
         public int pop()
         {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Underflow");
+                return -1;
+            }
+            else
+            {
+                Console.Write("Poped element is: " + adi[top]);
+                top--;
+                return top;
+            }
         }
     }
     internal class Program
