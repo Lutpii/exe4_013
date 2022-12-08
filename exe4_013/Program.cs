@@ -17,6 +17,10 @@ namespace exe4_013
             top = -1;
             max = 30;
         }
+        public void push()
+        {
+        }
+
     }
     internal class Program
     {
