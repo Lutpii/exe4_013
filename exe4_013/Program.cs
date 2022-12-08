@@ -8,7 +8,15 @@ namespace exe4_013
 {
     class Stack
     {
-
+        private string[] adi;
+        private int top;
+        private int max;
+        public Stack()
+        {
+            adi = new string[30];
+            top = -1;
+            max = 30;
+        }
     }
     internal class Program
     {
