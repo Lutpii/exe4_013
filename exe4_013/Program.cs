@@ -31,6 +31,10 @@ namespace exe4_013
                 adi[top] = Console.ReadLine();
             }
         }
+
+        public int pop()
+        {
+        }
     }
     internal class Program
     {
