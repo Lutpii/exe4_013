@@ -46,6 +46,10 @@ namespace exe4_013
                 return top;
             }
         }
+
+        public void display()
+        {
+        }
     }
     internal class Program
     {
