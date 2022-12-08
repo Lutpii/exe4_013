@@ -13,9 +13,9 @@ namespace exe4_013
         private int max;
         public Stack()
         {
-            adi = new string[30];
+            adi = new string[32];
             top = -1;
-            max = 30;
+            max = 32;
         }
         public void push()
         {
